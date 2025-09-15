@@ -6,7 +6,7 @@ Welcome to my personal web development learning repo! I'm documenting my daily p
 
 ## 📅 Daily Progress
 
-- [Day 1 – HTML, CSS, JS Practice](day1/README.md)
+- [Day1 – HTML, CSS, JS Practice](Day1/README.md)
     
 ---
 
