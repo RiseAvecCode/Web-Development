@@ -1,1 +1,13 @@
+body{
+    background-color: rgb(185, 161, 221);
+    color: rgb(5, 3, 3);
+}
+td{
+    border: 2px solid black;
+}
 
+<<<<<<< HEAD
+/* Your local version */
+=======
+/* GitHub version */
+>>>>>>> origin/main
