@@ -1,4 +1,4 @@
-# 🚀 Day#1 – HTML, CSS, JS Practice
+# 🚀 Day1 – HTML, CSS, JS Practice
 
 ## 📖 Summary
 This folder contains my Day 1 progress in web development. I practiced the basics of HTML structure, added styling with CSS, and linked a JavaScript file for future interactivity.
