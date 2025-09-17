@@ -3,41 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice website</title>
+    <title>Practice Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Practice website</h1>
-    <p>Here I'm practicing what i learnt till now</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, dolorum.(dummy paragraph)</p>
+    <h1>Practice Website</h1>
+    <p>Here I'm practicing what I learnt till now.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, dolorum. (dummy paragraph)</p>
     
-    <h2>How to add Links</h2>
+    <h2>How to Add Links</h2>
     <p><a target="_blank" href="https://www.google.com">Open Google</a></p>
-    <p><a target="_blank" href="https://www.facebook.com">Open facebook</a></p>
-    <p><a target="_blank" href="https://www.instagram.com">Open instagram</a></p>
-    <p><a target="_blank" href="https://www.youtube.com">Open youtube</a></p>
+    <p><a target="_blank" href="https://www.facebook.com">Open Facebook</a></p>
+    <p><a target="_blank" href="https://www.instagram.com">Open Instagram</a></p>
+    <p><a target="_blank" href="https://www.youtube.com">Open YouTube</a></p>
+    
+    <h2>How to Add an Image</h2>
+    <img height="230" src="ironman.png" alt="Iron Man">
 
-
-    <h1>How to add a image</h1>
-    <img height="230" src="ironman.png" alt="ironman">
-    <table><tr>
-    <th>Name</th>
-    <th>Work</th>
-    <th>Language</th>
-    </tr>
-
-    <tr>
-        <td>Ujjwal</td>
-        <td>Programmer</td>
-        <td>html</td>
-    </tr>
-
-    <tr>
-        <td>JD</td>
-        <td>Coder</td>
-        <td>Python</td>
-    </tr>
+    <h2>How to Create a Table</h2>
+    <table>
+        <caption>Employee Details</caption>  
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Work</th>
+                <th>Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ujjwal</td>
+                <td>Programmer</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td colspan="2">JD</td>
+                <td rowspan="2">Python</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">JD</td>
+                <td>Footer</td>
+            </tr>
+        </tfoot>
     </table>
+
+    <h2>Unordered List</h2>
+    <ul type="circle">
+        <li>ababababab</li>
+        <li>ababababab</li>
+        <li>ababababab</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="a">
+        <li>ababababab</li>
+        <li>ababababab</li>
+        <li>ababababab</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>Heading</dt>
+        <dd>This is the definition of heading.</dd>
+
+        <dt>Heading 2</dt>
+        <dd>This is the definition of heading 2.</dd>
+    </dl>
+
     <script src="script.js"></script>
 </body>
 </html>
