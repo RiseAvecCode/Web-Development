@@ -8,11 +8,12 @@ Every day’s practice is stored in its own folder with code, notes, and a summa
 
 ## 📅 Daily Progress
 
-1. [Day1 – HTML, CSS, JS Practice](Day1)
+1. [Day1 – Basic HTML Practice](Day1)
 - [🌍 Live Demo](https://riseaveccode.github.io/Web-Development/Day1/)
 
-2. [Day1 – HTML, CSS, JS Practice](Day2)
+2. [Day2 – SEO, Forms, Media](Day2)
 - [🌍 Live Demo](https://riseaveccode.github.io/Web-Development/Day2/)
+  
 *(More days will be added as I continue my journey)*
 
 ---
