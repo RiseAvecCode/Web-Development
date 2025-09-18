@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the description of this site -JD">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JD</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat animi doloremque quia perferendis voluptatibus quaerat quis doloribus illum eaque, dignissimos nam ex esse facilis dolores excepturi suscipit consequuntur deleniti libero adipisci enim eius beatae officiis illo. Error assumenda unde quasi temporibus nemo doloribus alias obcaecati</p>
+    
+    <h1>How to Make a Form</h1>
+    
+<form method="post" action="">
+
+<div>
+    <h3>Text Input</h3>
+    <p>The text input type is the most basic form of input and is widely used for collecting simple text data.</p>
+    <label for="username">Enter your username</label><br>
+    <input type ="text"  id="username" name="username" placeholder="Enter Your Username" required> 
+</div>
+
+<div>
+    <h3>Password Input</h3>
+    <p>The password input type is similar to the text type but hides the characters entered by the user for security reasons.</p>
+    <label for="password">Enter your password</label><br>
+<input type="password" id="password" name="password" placeholder="Enter Your password" required>
+</div> 
+
+
+<div>
+    <h3>Radio Buttons</h3>
+    <p>Radio buttons are used when you want the user to select only one option from a set of choices.</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type= "radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+</div>
+
+
+<div>
+    <h3>Checkbox</h3>
+        <p>Checkboxes allow the user to select multiple options from a set.</p>
+    <input type= "checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to newsletter</label>
+</div>
+
+<div>
+    <h3>Email</h3>
+    <label for="email">Enter your email</label><br>
+    <input type= "email" id="email" name="email" placeholder="Enter Your Email" required>
+</div>
+
+<div>
+    <h3>File Upload</h3>
+    <label for="file">Add Your File</label><br>
+    <input type="file" id="file" name="file" required>
+</div>
+
+
+<input type="submit" value="Submit">
+</form>
+<script src="script.js"></script>
+</body>
+</html>
+
+
 
